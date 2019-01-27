@@ -18,16 +18,16 @@ public class Panel {
    	int arduino = 0; //this is input from the arduino
  	Color arduinoColor = new Color(arduino);
 
- 	//find the note
- 	/*A*/ if(arduino > -1 && arduino < 2){arduinoColor=Color.red;}
+ 	//find the note Guitar note chart found here: http://www.bryankimsey.com/popsicle/Guitar%20note%20frequencies.jpg
+ 	/*A*/ if(arduino > 0 && arduino < 120){arduinoColor=Color.red;}
     			
-    	/* B */else if(arduino > 3 && arduino < 5){arduinoColor=Color.cyan;}
+    	/* B */else if(arduino > 151 && arduino < 250){arduinoColor=Color.cyan;}
     			
     	/* C */else if(arduino > 6 && arduino < 8){arduinoColor=Color.yellow;}
     			
-    	/* D */else if(arduino > 9 && arduino < 11){arduinoColor=Color.pink;}
+    	/* D */else if(arduino > 120 && arduino < 150){arduinoColor=Color.pink;}
     			
-    	/* E */else if(arduino > 12 && arduino < 14){arduinoColor=Color.green;}
+    	/* E */else if(arduino > 251 && arduino < 350){arduinoColor=Color.green;}
     			
     	/* F */else if(arduino > 15 && arduino < 16){arduinoColor=Color.green;}
     			
