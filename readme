@@ -1,0 +1,5 @@
+Synthastesia Machine 
+
+This is an Arduino project that takes in input from an eletric guitar and outputs a color on your monitor. 
+This is a current worm in project and as a result the code is unstable. I'll have better documentation once the first
+version of the application is finished. 
